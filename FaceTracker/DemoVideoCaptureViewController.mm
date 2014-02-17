@@ -47,7 +47,7 @@ const int kHaarOptions =  CV_HAAR_FIND_BIGGEST_OBJECT | CV_HAAR_DO_ROUGH_SEARCH;
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.captureGrayscale = YES;
-        self.qualityPreset = AVCaptureSessionPreset352x288;
+        self.qualityPreset = AVCaptureSessionPreset640x480;
     }
     return self;
 }
@@ -183,6 +183,7 @@ const int kHaarOptions =  CV_HAAR_FIND_BIGGEST_OBJECT | CV_HAAR_DO_ROUGH_SEARCH;
     
     // We will usually have only one face in frame
     if (faces.size() >0){
+        
         cv::Mat faceROI = mat(faces.front());
         _eyesCascade.detectMultiScale( faceROI, eyes, 1.15, 3.0, 0 , cv::Size(1, 1));
     }

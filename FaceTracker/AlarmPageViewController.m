@@ -92,8 +92,8 @@
     NSLog(@"song_nameT==============%@",song_nameT);
     
     notify = [[UILocalNotification alloc] init];
-//    notify.fireDate = [NSDate dateWithTimeIntervalSinceNow:5];
-    notify.fireDate = [NSDate dateWithTimeIntervalSinceNow:interval];
+    notify.fireDate = [NSDate dateWithTimeIntervalSinceNow:5];
+//    notify.fireDate = [NSDate dateWithTimeIntervalSinceNow:interval];
     notify.soundName = song_nameT;
     notify.applicationIconBadgeNumber = 1;
     notify.alertBody = @"時間だ";

@@ -238,7 +238,7 @@
 		0D24BB8717CC8E020019FD82 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		0D5D487217C5D38E003AF323 /* haarcascade_eye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye.xml; sourceTree = "<group>"; };
 		0D5D487417C5D416003AF323 /* AlarmPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmPageViewController.h; sourceTree = "<group>"; };
-		0D5D487517C5D416003AF323 /* AlarmPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmPageViewController.m; sourceTree = "<group>"; };
+		0D5D487517C5D416003AF323 /* AlarmPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmPageViewController.m; sourceTree = "<group>"; usesTabs = 0; };
 		0D5D487617C5D416003AF323 /* AlarmPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlarmPageViewController.xib; sourceTree = "<group>"; };
 		0D5D487917C5D429003AF323 /* ConfirmTimePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmTimePageViewController.h; sourceTree = "<group>"; };
 		0D5D487A17C5D429003AF323 /* ConfirmTimePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmTimePageViewController.m; sourceTree = "<group>"; };
@@ -787,7 +787,7 @@
 				GCC_PREFIX_HEADER = "FaceTracker/FaceTracker-Prefix.pch";
 				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_FILE = "FaceTracker/FaceTracker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = FaceTracker;
 				WRAPPER_EXTENSION = app;
@@ -810,7 +810,7 @@
 				GCC_PREFIX_HEADER = "FaceTracker/FaceTracker-Prefix.pch";
 				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_FILE = "FaceTracker/FaceTracker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = FaceTracker;
 				WRAPPER_EXTENSION = app;
@@ -852,7 +852,7 @@
 				GCC_PREFIX_HEADER = "FaceTracker/FaceTracker-Prefix.pch";
 				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_FILE = "FaceTracker/FaceTracker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = FaceTracker;
 				WRAPPER_EXTENSION = app;
